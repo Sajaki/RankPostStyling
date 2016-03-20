@@ -5,7 +5,7 @@ Extension for phpBB 3.1 that adds a CSS rule option to user ranks. Useful for st
 
 ![Screenshot](screenshot.png)
 
-## Features
+### Features
 - Integration with phpBB 3.1 ranks ACP module
 - Allows admin to specify a CSS class rule for each "special" rank
 - CSS class rule is applied to `<div class="post-container">` which wraps posts
@@ -18,18 +18,15 @@ Extension for phpBB 3.1 that adds a CSS rule option to user ranks. Useful for st
 #### Warning!
 This extension is only for those that are familiar with HTML and CSS. No support will be given beyond the actual functionality of the extension. All styling is up to you.
 
+## Version
+v1.0.4 (20-3-2016)
+
 #### Requirements
 - phpBB 3.1.0 or higher
 - PHP 5.3.3 or higher
 
 #### Languages supported
-- English
-- Spanish
-- Arabic
-- Croatian
-- Polish
-- French
-- Turkish
+- English, Spanish, Arabic, Croatian, Polish, French, Turkish, Italian
 
 ## Installation
 1. [Download the latest release](https://github.com/PayBas/RankPostStyling/releases) and unzip it.
@@ -37,7 +34,13 @@ This extension is only for those that are familiar with HTML and CSS. No support
 3. Navigate in the ACP to `Customise -> Manage extensions`.
 4. Find `Rank Post Styling` under "Disabled Extensions" and click `Enable`.
 
-## Uninstallation
+#### Tutorial
+1. go to ACP -> Users and Groups -> Manage Ranks. There is now a new column 'Rank Style'. 
+2. here you can define the css style that will be applied to the post content from members with this rank. add "rankpoststyle1" to one of the ranks.
+3. the example css 'rankpoststyling.css' will now be applied to post content of all ranked posts. 
+4. pbWoW & pbTech have other predefined rank styles, that you can apply in ACP. 
+
+#### Uninstallation
 1. Navigate in the ACP to `Customise -> Manage extensions`.
 2. Click the `Disable` link for `Rank Post Styling`.
 3. To permanently uninstall, click `Delete Data`, then delete the `rankpoststyling` folder from `/ext/paybas/`.
