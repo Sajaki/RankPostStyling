@@ -7,7 +7,7 @@ Extension for phpBB 3.1/3.2 that adds a CSS rule option to user ranks. Useful fo
 
 #### Version
 v1.0.5 (18-09-2017)
-[![Build Status](https://api.travis-ci.org/Sajaki/RankPostStyling.svg)](https://travis-ci.org/Sajaki/RankPostStyling)
+[![Build Status](https://api.travis-ci.org/Sajaki/rankpoststyling.svg)](https://travis-ci.org/Sajaki/rankpoststyling)
 
 ### Features
 - Integration with phpBB ranks ACP module
@@ -21,6 +21,18 @@ v1.0.5 (18-09-2017)
 
 #### Warning!
 You need to be abit familiar with HTML and CSS. 
+
+In manage ranks, assign a css class that you define to your ranks. 
+Then, all post-container classes for will be appended with the assigned css class for the rank of the user that posted. 
+
+The pbWoW style contains 2 content styling classes : "blizz" and "mvp".
+ ```
+ .blizz .content { color: #00C0FF; }
+ .blizz .content strong { color: #FFF; }
+ .mvp .content { color: #5DF644; }
+ .mvp .content strong { color: #FFF; }
+```
+
 No support will be given beyond the actual functionality of the extension. All styling is up to you.
 
 #### Requirements
