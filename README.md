@@ -7,7 +7,7 @@ Extension for phpBB 3.1/3.2 that adds a CSS rule option to user ranks. Useful fo
 
 #### Version
 v1.0.5 (18-09-2017)
-[![Build Status](https://api.travis-ci.org/Sajaki/rankpoststyling.svg)](https://travis-ci.org/Sajaki/rankpoststyling)
+[![Build Status](https://api.travis-ci.org/Sajaki/RankPostStyling.svg)](https://travis-ci.org/Sajaki/RankPostStyling)
 
 ### Features
 - Integration with phpBB ranks ACP module
