@@ -3,8 +3,8 @@
     "type": "phpbb-extension",
     "description": "This extension adds a CSS rule option to user ranks, which can be used style posts of users with those ranks.",
     "homepage": "https://github.com/bbDKP/RankPostStyling",
-    "version": "1.0.5",
-    "time": "2017-09-18",
+    "version": "1.0.6",
+    "time": "2017-12-13",
     "license": "GPL-2.0",
     "authors": [
         {

@@ -2,12 +2,30 @@ Rank Post Styling for phpBB 3.1/3.2
 ===================================
 
 #### Description
-Extension for phpBB 3.1/3.2 that adds a CSS rule option to user ranks. Useful for styling posts of special users.
+Extension for phpBB 3.1/3.2 that adds a CSS rule option to user ranks. 
+Useful for styling posts of special users.
+
+Rank Listing 
 ![Screenshot](screenshot.png)
+
+Manage ranks
+![Screenshot](ranks.png)
 
 #### Version
 v1.0.5 (18-09-2017)
-[![Build Status](https://api.travis-ci.org/Sajaki/RankPostStyling.svg)](https://travis-ci.org/Sajaki/RankPostStyling)
+[![Build Status](https://api.travis-ci.org/Sajaki/rankpoststyling.svg)](https://travis-ci.org/Sajaki/rankpoststyling)
+
+### Changelog 
+- 1.0.6 (13/12/2017)
+  - [NEW] pbWoW heroes support
+
+- 1.0.5 (18/09/2017)
+  - [NEW] phpBB 3.2
+
+- 1.0.4 (20/03/2016)
+  - [NEW] autoload css in overall_header_head_append_
+  - [NEW] Italian translation (Mauron)     
+  - [CHG] add tutorial
 
 ### Features
 - Integration with phpBB ranks ACP module
