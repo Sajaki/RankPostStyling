@@ -16,7 +16,7 @@
 /* General post content styling
 --------------------------------------------- */
 
-.blizz .post:target .content { color: #00C0FF;}
+.blizz .content { color: #00C0FF;}
 .blizz .content strong { color: #FFF;}
 .blizz .postlink { color: #D970FD;}
 .blizz .postlink:hover { color: #CCFFFF; }
