@@ -13,7 +13,7 @@ Manage ranks
 
 #### Version
 v1.0.5 (18-09-2017)
-[![Build Status](https://api.travis-ci.org/Sajaki/rankpoststyling.svg)](https://travis-ci.org/Sajaki/RankPostStyling)
+[![Build Status](https://api.travis-ci.org/Sajaki/rankpoststyling.svg)](https://travis-ci.org/Sajaki/rankpoststyling)
 
 ### Changelog 
 - 1.0.6 (13/12/2017)

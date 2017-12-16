@@ -1,6 +1,6 @@
 
-composer\.phar
+vendor/
 
 composer\.lock
 
-vendor/
+composer\.phar
