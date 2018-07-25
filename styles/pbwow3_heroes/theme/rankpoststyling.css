@@ -1,0 +1,58 @@
+.rankpoststyle1 .content {
+    color: #00c0ff;
+}
+
+
+/* Special post styles
+--------------------------------------------- */
+.blizz .post 	{ background-image: url("./images/post_bg_blizzard.png"); background-position: 0 0; }
+.propass .post	{ background-image: url("./images/post_bg_propass.png"); }
+.mvp .post		{ background-image: url("./images/post_bg_mvp.png"); }
+
+.blizz .postprofile .avatar-container	{ background: url("./images/avatar-sprite.png") 50% -309px no-repeat; }
+.mvp .postprofile .avatar-container		{ background: url("./images/avatar-sprite.png") 50% -159px no-repeat; }
+
+
+/* General post content styling
+--------------------------------------------- */
+
+.blizz .content { color: #00C0FF;}
+.blizz .content strong { color: #FFF;}
+.blizz .postlink { color: #D970FD;}
+.blizz .postlink:hover { color: #CCFFFF; }
+.mvp .content { color: #00D158; }
+.mvp .content strong { color: #FFF; }
+
+.blizz .post:target .content { color: #00C0FF;}
+.blizz .post:target .content strong { color: #FFF;}
+.blizz .post:target .postlink { color: #D970FD;}
+.blizz .post:target .postlink:hover { color: #CCFFFF; }
+.mvp .post:target .content { color: #00D158; }
+.mvp .post:target .content strong { color: #FFF; }
+
+/* Profile view
+--------------------------------------------- */
+
+.blizz #viewprofile .panel:first-of-type,
+.propass #viewprofile .panel:first-of-type,
+.mvp #viewprofile .panel:first-of-type {
+    background-position: 0 0, 100% 0, 50% -1px;
+    background-repeat: no-repeat;
+    background-size: 1px 100%, 1px 100%, auto;
+}
+.blizz #viewprofile .panel:first-of-type {
+    background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+    linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+    url("./images/post_bg_blizzard.png");
+    background-position: 0 0, 100% 0, 0 -1px;
+}
+.propass #viewprofile .panel:first-of-type {
+    background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+    linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+    url("./images/post_bg_propass.png");
+}
+.mvp #viewprofile .panel:first-of-type {
+    background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+    linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+    url("./images/post_bg_mvp.png");
+}

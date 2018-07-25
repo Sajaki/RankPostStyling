@@ -1,12 +1,34 @@
-Rank Post Styling for phpBB 3.1
-===============
+Rank Post Styling for phpBB 3.1/3.2
+===================================
 
-Extension for phpBB 3.1 that adds a CSS rule option to user ranks. Useful for styling posts of special users.
+#### Description
+Extension for phpBB 3.1/3.2 that adds a CSS rule option to user ranks. 
+Useful for styling posts of special users.
 
+Rank Listing 
 ![Screenshot](screenshot.png)
 
+Manage ranks
+![Screenshot](ranks.png)
+
+#### Version
+v1.0.5 (18-09-2017)
+[![Build Status](https://api.travis-ci.org/Sajaki/rankpoststyling.svg)](https://travis-ci.org/Sajaki/rankpoststyling)
+
+### Changelog 
+- 1.0.6 (13/12/2017)
+  - [NEW] pbWoW heroes support
+
+- 1.0.5 (18/09/2017)
+  - [NEW] phpBB 3.2
+
+- 1.0.4 (20/03/2016)
+  - [NEW] autoload css in overall_header_head_append_
+  - [NEW] Italian translation (Mauron)     
+  - [CHG] add tutorial
+
 ### Features
-- Integration with phpBB 3.1 ranks ACP module
+- Integration with phpBB ranks ACP module
 - Allows admin to specify a CSS class rule for each "special" rank
 - CSS class rule is applied to `<div class="post-container">` which wraps posts
 - Available in:
@@ -16,10 +38,20 @@ Extension for phpBB 3.1 that adds a CSS rule option to user ranks. Useful for st
 - Gives total control to style whatever you like (fonts, colors, images, etc.)  
 
 #### Warning!
-This extension is only for those that are familiar with HTML and CSS. No support will be given beyond the actual functionality of the extension. All styling is up to you.
+You need to be abit familiar with HTML and CSS. 
 
-## Version
-v1.0.4 (20-3-2016)
+In manage ranks, assign a css class that you define to your ranks. 
+Then, all post-container classes for will be appended with the assigned css class for the rank of the user that posted. 
+As an example, the pbWoW style contains 2 content styling classes : "blizz" and "mvp". 
+You would then need to assign these classes to your ranks. 
+ ```
+ .blizz .content { color: #00C0FF; }
+ .blizz .content strong { color: #FFF; }
+ .mvp .content { color: #5DF644; }
+ .mvp .content strong { color: #FFF; }
+```
+
+No support will be given beyond the actual functionality of the extension. All styling is up to you.
 
 #### Requirements
 - phpBB 3.1.0 or higher
@@ -29,7 +61,7 @@ v1.0.4 (20-3-2016)
 - English, Spanish, Arabic, Croatian, Polish, French, Turkish, Italian
 
 ## Installation
-1. [Download the latest release](https://github.com/PayBas/RankPostStyling/releases) and unzip it.
+1. [Download the latest release](http://www.avathar.be/bbdkp/app.php/dl_ext/?cat=2) and unzip it.
 2. Copy the entire contents from the unzipped folder to `/ext/paybas/rankpoststyling/`.
 3. Navigate in the ACP to `Customise -> Manage extensions`.
 4. Find `Rank Post Styling` under "Disabled Extensions" and click `Enable`.
