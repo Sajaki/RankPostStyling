@@ -1,5 +1,5 @@
-Rank Post Styling for phpBB 3.1/3.2
-===================================
+Rank Post Styling for phpBB 3.1/3.2/3.3
+=======================================
 
 #### Description
 Extension for phpBB 3.1/3.2 that adds a CSS rule option to user ranks. 
