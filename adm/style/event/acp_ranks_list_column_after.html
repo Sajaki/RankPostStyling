@@ -1,1 +1,1 @@
-<td style="text-align: center;"><!-- IF not ranks.S_SPECIAL_RANK -->&nbsp; - &nbsp;<!-- ELSE -->{ranks.RANK_STYLE}<!-- ENDIF --></td>
+<td style="text-align: center;">{% if not ranks.S_SPECIAL_RANK %}&nbsp; - &nbsp;{% else %}{{ ranks.RANK_STYLE }}{% endif %}</td>
