@@ -1,34 +1,34 @@
 <?php
 /**
  *
- * @package Recent Topics Extension
- * @copyright (c) 2015 PayBas
+ * @package Rank Post Styling Extension
+ * @copyright (c) 2017 Sajaki
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * Based on the original NV Recent Topics by Joas Schilling (nickvergessen)
  */
 
-namespace paybas\recenttopics\migrations;
+namespace paybas\rankpoststyling\migrations;
 
-class release_2_2_6 extends \phpbb\db\migration\migration
+class release_104 extends \phpbb\db\migration\migration
 {
 
 	public function effectively_installed()
 	{
-		return isset($this->config['rt_version']) && version_compare($this->config['rt_version'], '2.2.6', '>=');
+		return isset($this->config['rps_version']) && version_compare($this->config['rt_version'], '1.0.4', '>=');
 	}
 
 	static public function depends_on()
 	{
 		return array(
-			'\paybas\recenttopics\migrations\release_2_2_5',
+			'\paybas\rankpoststyling\migrations\release_1_0_0',
 		);
 	}
 
 	public function update_data()
 	{
 		return array(
-			array('config.update', array('rt_version', '2.2.6')),
+			array('config.update', array('rps_version', '1.0.4')),
 		);
 	}
 }
