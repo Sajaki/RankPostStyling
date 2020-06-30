@@ -32,7 +32,7 @@ class release_1_0_0 extends \phpbb\db\migration\migration
 			),
 		);
 	}
-	
+
 	public function update_data()
 	{
 		return array(
@@ -42,14 +42,11 @@ class release_1_0_0 extends \phpbb\db\migration\migration
 
 		);
 	}
-	
-	
+
 	public function revert_data()
 	{
 		return array(
 			array('config.remove', array('rps_version')),
 		);
 	}
-	
-	
 }
