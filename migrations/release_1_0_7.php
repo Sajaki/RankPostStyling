@@ -10,7 +10,7 @@
 
 namespace paybas\rankpoststyling\migrations;
 
-class release_107 extends \phpbb\db\migration\migration
+class release_1_0_7 extends \phpbb\db\migration\migration
 {
 
 	public function effectively_installed()
