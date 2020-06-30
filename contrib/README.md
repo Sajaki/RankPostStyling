@@ -1,5 +1,5 @@
-Rank Post Styling for phpBB 3.1/3.2
-===================================
+Rank Post Styling for phpBB 3.2/3.3
+=======================================
 
 #### Description
 Extension for phpBB 3.1/3.2 that adds a CSS rule option to user ranks. 
@@ -12,10 +12,14 @@ Manage ranks
 ![Screenshot](ranks.png)
 
 #### Version
-v1.0.5 (18-09-2017)
+v1.0.7 (29-06-2020)
 [![Build Status](https://api.travis-ci.org/Sajaki/rankpoststyling.svg)](https://travis-ci.org/Sajaki/rankpoststyling)
 
 ### Changelog 
+- 1.0.7 (29/06/2020)
+  - [NEW] phpBB 3.3 support. 
+  - [NEW] dropped support for 3.1
+  
 - 1.0.6 (13/12/2017)
   - [NEW] pbWoW heroes support
 
@@ -37,6 +41,24 @@ v1.0.5 (18-09-2017)
   - Memberlist (viewprofile)
 - Gives total control to style whatever you like (fonts, colors, images, etc.)  
 
+#### Requirements
+- phpBB 3.2.0 or higher
+
+#### Languages supported
+- English, Spanish, Arabic, Croatian, Polish, French, Turkish, Italian
+
+## Installation
+1. [Download the latest release](http://www.avathar.be/forum/app.php/dl_ext/?cat=2) and unzip it.
+2. Copy the entire contents from the unzipped folder to `/ext/paybas/rankpoststyling/`.
+3. Navigate in the ACP to `Customise -> Manage extensions`.
+4. Find `Rank Post Styling` under "Disabled Extensions" and click `Enable`.
+
+#### Tutorial
+1. go to ACP -> Users and Groups -> Manage Ranks. There is now a new column 'Rank Style'. 
+2. here you can define the css style that will be applied to the post content from members with this rank. add "rankpoststyle1" to one of the ranks.
+3. the example css 'rankpoststyling.css' will now be applied to post content of all ranked posts. 
+4. pbWoW & pbTech have other predefined rank styles, that you can apply in ACP. 
+
 #### Warning!
 You need to be abit familiar with HTML and CSS. 
 
@@ -50,27 +72,7 @@ You would then need to assign these classes to your ranks.
  .mvp .content { color: #5DF644; }
  .mvp .content strong { color: #FFF; }
 ```
-
 No support will be given beyond the actual functionality of the extension. All styling is up to you.
-
-#### Requirements
-- phpBB 3.1.0 or higher
-- PHP 5.3.3 or higher
-
-#### Languages supported
-- English, Spanish, Arabic, Croatian, Polish, French, Turkish, Italian
-
-## Installation
-1. [Download the latest release](http://www.avathar.be/bbdkp/app.php/dl_ext/?cat=2) and unzip it.
-2. Copy the entire contents from the unzipped folder to `/ext/paybas/rankpoststyling/`.
-3. Navigate in the ACP to `Customise -> Manage extensions`.
-4. Find `Rank Post Styling` under "Disabled Extensions" and click `Enable`.
-
-#### Tutorial
-1. go to ACP -> Users and Groups -> Manage Ranks. There is now a new column 'Rank Style'. 
-2. here you can define the css style that will be applied to the post content from members with this rank. add "rankpoststyle1" to one of the ranks.
-3. the example css 'rankpoststyling.css' will now be applied to post content of all ranked posts. 
-4. pbWoW & pbTech have other predefined rank styles, that you can apply in ACP. 
 
 #### Uninstallation
 1. Navigate in the ACP to `Customise -> Manage extensions`.
@@ -81,3 +83,4 @@ No support will be given beyond the actual functionality of the extension. All s
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
 
 © 2015 - PayBas
+© 2017 - Sajaki
