@@ -55,9 +55,9 @@ v1.0.7 (29-06-2020)
 
 #### Tutorial
 1. go to ACP -> Users and Groups -> Manage Ranks. There is now a new column 'Rank Style'. 
-2. here you can define the css style that will be applied to the post content from members with this rank. add "rankpoststyle1" to one of the ranks.
+2. here you can define the css style that will be applied to the post content from members with this rank.
 3. the example css 'rankpoststyling.css' will now be applied to post content of all ranked posts. 
-4. pbWoW & pbTech have other predefined rank styles, that you can apply in ACP. 
+4. pbWoW & pbTech have other predefined rank styles that you can apply in ACP. 
 
 #### Warning!
 You need to be abit familiar with HTML and CSS. 
