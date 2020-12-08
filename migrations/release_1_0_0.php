@@ -32,4 +32,19 @@ class release_1_0_0 extends \phpbb\db\migration\migration
 			),
 		);
 	}
+
+	public function update_data()
+	{
+		return array(
+			// Add new config vars
+			array('config.add', array('rps_version', '1.0.0')),
+		);
+	}
+
+	public function revert_data()
+	{
+		return array(
+			array('config.remove', array('rps_version')),
+		);
+	}
 }
