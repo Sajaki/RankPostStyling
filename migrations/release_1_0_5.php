@@ -15,7 +15,7 @@ class release_1_0_5 extends \phpbb\db\migration\migration
 
 	public function effectively_installed()
 	{
-		return isset($this->config['rps_version']) && version_compare($this->config['rt_version'], '1.0.5', '>=');
+		return isset($this->config['rps_version']) && version_compare($this->config['rps_version'], '1.0.5', '>=');
 	}
 
 	static public function depends_on()
